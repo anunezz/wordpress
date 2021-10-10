@@ -84,4 +84,6 @@ add_filter('mt_creditos_filtro','nuevo_filtro_creditos',10,2);
 // ya no guardara las veces guaradadas
 remove_all_actions('save_post');
 
-// remove_all_filters('the_title');
+//!removiendo todos los filtros 
+//revisar single.php en la linea 15
+remove_all_filters('the_title');
