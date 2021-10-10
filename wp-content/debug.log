@@ -1,0 +1,1465 @@
+[03-Oct-2021 13:14:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php on line 6
+[04-Oct-2021 04:40:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'odificar_excerpt_length' not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 303
+[04-Oct-2021 06:16:30 UTC] PHP Warning:  include(C:\xampp\htdocs\wordpress/wp-content/themes/mitematitulo.php): failed to open stream: No such file or directory in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\front-page.php on line 18
+[04-Oct-2021 06:16:30 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\wordpress/wp-content/themes/mitematitulo.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\front-page.php on line 18
+[04-Oct-2021 06:39:29 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 34
+[04-Oct-2021 06:39:30 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 34
+[04-Oct-2021 06:44:48 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:44:49 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:44:57 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:45:01 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:45:01 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:45:01 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:45:01 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:45:01 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:45:01 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:46:32 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:46:32 UTC] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 35
+[04-Oct-2021 06:47:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_titulo_veces_guardado(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:31
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_titulo_veces_guardado('Entrada 2')
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('Entrada 2', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(171): apply_filters('the_title', 'Entrada 2', 10)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\contenidos\contenido.php(8): get_the_title()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\word in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 07:13:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(28)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 28, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:13:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:13:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:14:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(29)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 29, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:16:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:16:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(30)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 30, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:16:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:16:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(31)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 31, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:16:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:17:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(32)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 32, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:17:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:18:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(33)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 33, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(34)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 34, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:21:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:22:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:23:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(35)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 35, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:23:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(36)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 36, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:23:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:23:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:23:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(37)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 37, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:24:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(38)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 38, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:24:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(39)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 39, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:25:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(40)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 40, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:25:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(41)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 41, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:25:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:26:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(42)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 42, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:27:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(43)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 43, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:27:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(44)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 44, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:27:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:33:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:33:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:33:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:33:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:33:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:42:23 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:42:23 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:42:28 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:42:28 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:42:28 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:42:28 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:00 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:00 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(47)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 47, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:43:36 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:36 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:36 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:36 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:37 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:37 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:42 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:43:42 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:44:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:44:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:44:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:44:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:35 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:35 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:38 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:38 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:53 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:45:53 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 29
+[04-Oct-2021 07:47:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(50)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 50, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 07:47:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(51)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 51, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:31:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:31:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:31:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:33:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:33:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:36:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:36:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:37:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:38:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(52)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 52, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:38:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:38:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:38:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(53)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 53, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:39:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(54)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 54, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:39:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:39:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:41:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(55)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 55, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(12)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:42:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(56)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 56, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision(Array, true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_ in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:43:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:43:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:43:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:43:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:43:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(57)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 57, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(12)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:44:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:44:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:44:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:44:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:44:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(12)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 12, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 12:46:00 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:46:00 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:46:39 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:46:39 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:46:39 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:46:39 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:48:40 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:48:40 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 31
+[04-Oct-2021 12:48:50 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:48:50 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:48:52 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:48:52 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:49:41 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:49:41 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:49:41 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:49:41 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:51:42 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:51:42 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:53:43 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:53:43 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:55:44 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:55:44 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:57:45 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 12:57:45 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:09:49 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:09:49 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:09:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:09:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[04-Oct-2021 13:09:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[04-Oct-2021 13:09:55 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:09:55 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:09:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:10:29 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:10:29 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:10:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:10:50 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:10:50 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:10:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:12:16 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:12:16 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:12:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:12:18 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:12:18 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:12:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:12:20 UTC] PHP Notice:  Undefined variable: post_id in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:12:20 UTC] PHP Notice:  Undefined variable: post in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 30
+[04-Oct-2021 13:12:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(30): do_action('save_post', NULL, NULL)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-ad in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:39:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(59)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 59, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xamp in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:43:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(62)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 62, Object(WP_Post), false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\revision.php(334): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(190): _wp_put_post_revision(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): wp_save_post_revision(10)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xa in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:43:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mt_veces_guardados(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): mt_veces_guardados(10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(4468): do_action('save_post', 10, Object(WP_Post), true)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(4570): wp_insert_post(Array, true, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(821): wp_update_post(Array, true, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#7  in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 22
+[04-Oct-2021 13:48:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_loggend_in() in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): mt_titulo_veces_guardado('Entrada 2', 10)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('Entrada 2', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(171): apply_filters('the_title', 'Entrada 2', 10)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php(9): get_the_title()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 38
+[04-Oct-2021 14:19:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:21:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:23:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:25:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:26:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:27:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:29:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 46 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:114
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(46): add_filter('the_content')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 114
+[04-Oct-2021 14:32:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function <!-- wp:paragraph -->
+<p>Lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicinrtyrywewwetrg&nbsp;elit.&nbsp;Vfgfgfggffgelit&nbsp;magnam&nbsp;quia&nbsp;perspiciatis&nbsp;blanditiis?&nbsp;Fugiat&nbsp;eos&nbsp;ducimus&nbsp;rerum&nbsp;laborum&nbsp;soluta&nbsp;minisdsdsddsdsma&nbsp;totasdsdsdm,&nbsp;eligendsaasi&nbsp;tempore&nbsp;quos&nbsp;odityyu&nbsp;corpsdsdoris&nbsp;igffgfgpsam&nbsp;quis&nbsp;molestias&nbsp;saepe. fffjjjreerreeruiuiuiuisdsssdwewewewhjjhjhhjjhffhgg</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>fdfdfdfdfddf</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>asasasas</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":68,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://localhost/wordpress/wp-content/uploads/2021/10/3ab66b9a4025226fc882bb589a5f191c.jpg" alt="" class="wp-image-68"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>asasasasasas</p>
+<!-- /wp:paragrap in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php on line 15
+[04-Oct-2021 14:32:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function <!-- wp:paragraph -->
+<p>Lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicinrtyrywewwetrg&nbsp;elit.&nbsp;Vfgfgfggffgelit&nbsp;magnam&nbsp;quia&nbsp;perspiciatis&nbsp;blanditiis?&nbsp;Fugiat&nbsp;eos&nbsp;ducimus&nbsp;rerum&nbsp;laborum&nbsp;soluta&nbsp;minisdsdsddsdsma&nbsp;totasdsdsdm,&nbsp;eligendsaasi&nbsp;tempore&nbsp;quos&nbsp;odityyu&nbsp;corpsdsdoris&nbsp;igffgfgpsam&nbsp;quis&nbsp;molestias&nbsp;saepe. fffjjjreerreeruiuiuiuisdsssdwewewewhjjhjhhjjhffhgg</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>fdfdfdfdfddf</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>asasasas</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":68,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://localhost/wordpress/wp-content/uploads/2021/10/3ab66b9a4025226fc882bb589a5f191c.jpg" alt="" class="wp-image-68"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>asasasasasas</p>
+<!-- /wp:paragrap in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php on line 15
+[04-Oct-2021 14:46:39 UTC] PHP Notice:  Undefined variable: contenido in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php on line 17
+[04-Oct-2021 14:46:55 UTC] PHP Notice:  Undefined variable: contenido in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php on line 17
+[04-Oct-2021 14:46:57 UTC] PHP Notice:  Undefined variable: contenido in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\single.php on line 17
+[07-Oct-2021 06:23:48 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63
+[07-Oct-2021 06:23:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[07-Oct-2021 06:23:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[07-Oct-2021 06:24:20 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63
+[07-Oct-2021 12:46:56 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 66
+[07-Oct-2021 15:27:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:27:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:27:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:28:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:29:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:30:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:32:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:34:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:36:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:38:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:51:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:51:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:53:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:53:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:55:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:57:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 15:59:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 16:01:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 16:03:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 19:08:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 19:09:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 19:11:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 19:13:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 19:15:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
+[07-Oct-2021 19:17:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php on line 63 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:561
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\mitema\functions.php(63): remove_action('mt_creditos')
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 561
