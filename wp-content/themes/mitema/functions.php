@@ -44,7 +44,7 @@ add_filter('the_title','mt_titulo_veces_guardado',10,2);
 
 //removiendo filtro
 //revisar single.php linea 15
-remove_filter('the_title','mt_titulo_veces_guardado');
+//remove_filter('the_title','mt_titulo_veces_guardado');
 
 
 add_filter('the_content','mt_destacado_contenido');
@@ -68,7 +68,7 @@ function nuevos_creaditos($nombre,$edad){
 add_action('mt_creditos','nuevos_creaditos',10,2);
 
 //removiendo acciones
-remove_action('mt_creditos','nuevos_creaditos',10);
+//remove_action('mt_creditos','nuevos_creaditos',10);
 
 //! add_filter
 //Revisar como se aplica en front-page en la linea 24
@@ -79,5 +79,9 @@ function nuevo_filtro_creditos( $text_creditos ,$text){
 
 add_filter('mt_creditos_filtro','nuevo_filtro_creditos',10,2);
 
-//remove_all_actions('save_post);
-//remove_all_filters('the_title');
+//!removiendo todas las acciones
+//revisar linea 22 mt_veces_guardados
+// ya no guardara las veces guaradadas
+remove_all_actions('save_post');
+
+// remove_all_filters('the_title');
