@@ -39,7 +39,12 @@ function mt_titulo_veces_guardado($title,$id){
     return $title."xxx".$id;
 }
 
+//! add_filter
 add_filter('the_title','mt_titulo_veces_guardado',10,2);
+
+//removiendo filtro
+//revisar single.php linea 15
+remove_filter('the_title','mt_titulo_veces_guardado');
 
 
 add_filter('the_content','mt_destacado_contenido');
@@ -65,12 +70,14 @@ add_action('mt_creditos','nuevos_creaditos',10,2);
 //removiendo acciones
 remove_action('mt_creditos','nuevos_creaditos',10);
 
+//! add_filter
+//Revisar como se aplica en front-page en la linea 24
+
 function nuevo_filtro_creditos( $text_creditos ,$text){
     return str_replace('Adrian', 'Otro desarrollador.',$text_creditos)." ----- ".$text;
 }
 
-
-
 add_filter('mt_creditos_filtro','nuevo_filtro_creditos',10,2);
+
 //remove_all_actions('save_post);
 //remove_all_filters('the_title');
