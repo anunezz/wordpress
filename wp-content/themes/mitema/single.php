@@ -1,5 +1,11 @@
 <h2>single.php - dsddss</h2>
 
+<br>
+<h2>do_action</h2>
+<?php 
+//do action
+do_action('mt_creditos','Adrian',33);
+?>
 
 <?php
 

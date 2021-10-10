@@ -58,17 +58,19 @@ function nuevos_creaditos($nombre,$edad){
     echo "<h2>Extendiendo el tema por otro desarrollador $nombre y su edad es de $edad.</h2>";
 }
 
+//Revisar como se aplica en front-page.php linea 18
+
 add_action('mt_creditos','nuevos_creaditos',10,2);
+
 //removiendo acciones
-//remove_action('mt_creditos');
+remove_action('mt_creditos','nuevos_creaditos',10);
 
 function nuevo_filtro_creditos( $text_creditos ,$text){
     return str_replace('Adrian', 'Otro desarrollador.',$text_creditos)." ----- ".$text;
 }
 
+
+
 add_filter('mt_creditos_filtro','nuevo_filtro_creditos',10,2);
-
-//remove_filter();
-
 //remove_all_actions('save_post);
 //remove_all_filters('the_title');
