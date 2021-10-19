@@ -11,5 +11,11 @@
 
 <header>
 <h1>header.php</h1>
+<?php 
+ global $post;
+
+ echo "post: ".$post->ID;
+
+?>
 </header>
 

@@ -82,8 +82,36 @@ add_filter('mt_creditos_filtro','nuevo_filtro_creditos',10,2);
 //!removiendo todas las acciones
 //revisar linea 22 mt_veces_guardados
 // ya no guardara las veces guaradadas
-remove_all_actions('save_post');
+//remove_all_actions('save_post');
 
 //!removiendo todos los filtros 
 //revisar single.php en la linea 15
-remove_all_filters('the_title');
+//|remove_all_filters('the_title');
+
+function mt_modificar_contenido( $contenido ){
+    switch ( current_filter() ) {
+        case 'the_content':
+            $contenido = "$contenido -> Se esta ejecutrando el filtro the_content";
+        break;
+        case 'get_the_content':
+            $contenido = "$contenido -> Se esta ejecutrando el filtro get_the_content";
+        break;
+        case 'the_excerpt':
+            $contenido = "$contenido -> Se esta ejecutrando el filtro the_excerpt";
+        break;
+        case 'get_the_excerpt':
+            $contenido = "$contenido -> Se esta ejecutrando el filtro get_the_excerpt";
+        break;
+        case 'hola':
+            $contenido = "$contenido -> Se esta ejecutrando el filtro hola";
+        break;
+    }
+    return $contenido;
+}
+
+//!Haciendo switch para funciones
+//revisar single.php
+add_filter("the_content","mt_modificar_contenido");
+add_filter("get_the_content","mt_modificar_contenido");
+add_filter("the_excerpt","mt_modificar_contenido");
+add_filter("get_the_excerpt","mt_modificar_contenido");
