@@ -8,6 +8,11 @@ get_header();
 <hr>
 <?php 
     if( is_single() || single(10)){
+        //* Se puede buscar por diferentes formas (titulo,ID,slug)
+        if( is_single("Entrada 1") && is_single( ["Entrada 1",10] ) ){
+            echo "Estas en la Entrada 1 <hr>";
+        }
+        
         echo "Es single la pagina"; 
     }else{
         echo "No es single";
